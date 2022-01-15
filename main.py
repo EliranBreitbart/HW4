@@ -25,8 +25,7 @@ def load_config(f):
 
 
 def execute_orders(f):
-    summary = open(sys.argv[3], 'r+')
-    summary.truncate(0)
+    summary = open(sys.argv[3], 'w+')
     counter = 1
     with open(f) as _f:
         line = _f.readline()
