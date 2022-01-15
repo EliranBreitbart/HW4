@@ -1,0 +1,22 @@
+10,5
+1,olives,1,10
+2,mushrooms,2,20
+3,mushrooms,1,20
+4,tomatoes,2, 10
+5,olives,3,5
+6,garlic,1,10
+7,lettuce,4,5
+8,hats,4,5
+9,pineapple,5,10
+10,onion,5,3
+1,Scrabbles
+2,Hatters
+3,Sunny
+4,TeaSpoons
+5,BigSpoons
+
+Each order will be executed, if a certain hat topping has two suppliers or more, the inventory from the first
+supplier (ordered by id) will be used. When executing the orders, you will need to update the quantity of
+the hats in the database, if the quantity drops to zero, the entry should be removed from the database.
+Executed orders will be inserted to the orders database, with a unique id, starting from 1, and increasing by
+1 on each order.
